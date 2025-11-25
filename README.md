@@ -187,48 +187,33 @@ Pizza morocco
     <p>هنا تجد أشهى أنواع البيتزا!</p>
 </body>
 </html/>
-<!DOCTYPE html>
-<html lang="ar">
-<head>
-    <meta charset="UTF-8">
-    <title>موقع البيتزا الخاص بي</title>
+<!-- HTML -->
+<div class="search-bar">
+    <img src="pizza.png" alt="Logo" class="logo">
+    <input type="text" placeholder="ابحث هنا...">
+</div>
 
-    <!-- favicon باستخدام صورة PNG -->
-    <!-- ضع الصورة التي أرسلتها باسم pizza-cartoon.png في نفس مجلد الموقع -->
-    <link rel="icon" href="pizza-cartoon.png" type="image/png">
-</head>
-<body>
-    <h1>مرحبا بك في موقع البيتزا الخاص بي 🍕</h1>
-    <p>استمتع بألذ أنواع البيتزا!</p>
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="ar">
-<head>
-    <meta charset="UTF-8">
-    <title>موقع البيتزا الخاص بي</title>
+<!-- CSS -->
+<style>
+.search-bar {
+    display: flex;
+    align-items: center;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 5px 10px;
+    width: 300px; /* يمكنك تغيير العرض حسب رغبتك */
+}
 
-    <!-- favicon باستخدام صورة PNG -->
-    <!-- ضع الصورة التي أرسلتها باسم pizza-cartoon.png في نفس مجلد الموقع -->
-    <link rel="icon" href="pizza-cartoon.png" type="image/png">
-</head>
-<body>
-    <h1>مرحبا بك في موقع البيتزا الخاص بي 🍕</h1>
-    <p>استمتع بألذ أنواع البيتزا!</p>
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="ar">
-<head>
-    <meta charset="UTF-8">
-    <title>موقع البيتزا الخاص بي</title>
+.search-bar .logo {
+    width: 40px; /* حجم الشعار */
+    height: 40px;
+    margin-right: 10px;
+}
 
-    <!-- favicon باستخدام صورة PNG -->
-    <!-- ضع الصورة التي أرسلتها باسم pizza-cartoon.png في نفس مجلد الموقع -->
-    <link rel="icon" href="pizza-cartoon.png" type="image/png">
-</head>
-<body>
-    <h1>مرحبا بك في موقع البيتزا الخاص بي 🍕</h1>
-    <p>استمتع بألذ أنواع البيتزا!</p>
-</body>
-</html>
+.search-bar input {
+    border: none;
+    outline: none;
+    flex: 1;
+    font-size: 16px;
+}
+</style>
