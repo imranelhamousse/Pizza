@@ -169,3 +169,21 @@ Pizza morocco
   color: #d84315;
 }
 </style>
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>موقع البيتزا الخاص بي</title>
+
+    <!-- طريقة 1: favicon باستخدام صورة PNG -->
+    <!-- ضع صورة شعار البيتزا في نفس المجلد باسم pizza.png -->
+    <link rel="icon" href="pizza.png" type="image/png">
+
+    <!-- طريقة 2: favicon باستخدام إيموجي (عمله عبر بيانات Base64) -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍕</text></svg>">
+</head>
+<body>
+    <h1>مرحبا بك في موقع البيتزا الخاص بي 🍕</h1>
+    <p>هنا تجد أشهى أنواع البيتزا!</p>
+</body>
+</html>
