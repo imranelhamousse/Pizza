@@ -125,3 +125,47 @@ Pizza morocco
 
 </body>
 </html>
+<div class="moroccan-logo">
+  <div class="circle"></div>
+  <div class="circle inner"></div>
+  <div class="text">المغرب الأصيل</div>
+</div>
+
+<style>
+.moroccan-logo {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  margin: 20px auto;
+  text-align: center;
+  font-family: "Arial", sans-serif;
+}
+.moroccan-logo .circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #d84315, #ff7043);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.moroccan-logo .circle.inner {
+  width: 100px;
+  height: 100px;
+  background: #fff8f0;
+  top: 25px;
+  left: 25px;
+  z-index: 2;
+}
+.moroccan-logo .text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  font-size: 18px;
+  font-weight: bold;
+  color: #d84315;
+}
+</style>
